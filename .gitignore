@@ -1,0 +1,6 @@
+.git/
+.idea/
+.formatter.yml
+php-beast.log
+public/.well-known/
+public/tools/

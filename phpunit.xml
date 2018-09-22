@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit backupGlobals="false"
+         backupStaticAttributes="false"
+         colors="true"
+         convertErrorsToExceptions="true"
+         convertNoticesToExceptions="true"
+         convertWarningsToExceptions="true"
+         processIsolation="false"
+         stopOnFailure="false"
+         syntaxCheck="false">
+    <testsuites>
+        	<testsuite name="Code Test Suite">
+		<directory>./application/code/tests/</directory>
+	</testsuite>
+        	<testsuite name="Invite Test Suite">
+		<directory>./application/invite/tests/</directory>
+	</testsuite>
+        	<testsuite name="Ucenter Test Suite">
+		<directory>./application/ucenter/tests/</directory>
+	</testsuite>
+        	<testsuite name="Auth Test Suite">
+		<directory>./application/auth/tests/</directory>
+	</testsuite>
+        	<testsuite name="File Test Suite">
+		<directory>./application/file/tests/</directory>
+	</testsuite>
+        	<testsuite name="Doc Test Suite">
+		<directory>./application/doc/tests/</directory>
+	</testsuite>
+        	<testsuite name="Role Test Suite">
+		<directory>./application/role/tests/</directory>
+	</testsuite>
+        	<testsuite name="Paycenter Test Suite">
+		<directory>./application/paycenter/tests/</directory>
+	</testsuite>
+        	<testsuite name="Search Test Suite">
+		<directory>./application/search/tests/</directory>
+	</testsuite>
+        	<testsuite name="Help Test Suite">
+		<directory>./application/help/tests/</directory>
+	</testsuite>
+        	<testsuite name="Index Test Suite">
+		<directory>./application/index/tests/</directory>
+	</testsuite>
+        	<testsuite name="Forum Test Suite">
+		<directory>./application/forum/tests/</directory>
+	</testsuite>
+        	<testsuite name="AppStore Test Suite">
+		<directory>./application/appstore/tests/</directory>
+	</testsuite>
+        	<testsuite name="Monitor Test Suite">
+		<directory>./application/monitor/tests/</directory>
+	</testsuite>
+        	<testsuite name="Shorturl Test Suite">
+		<directory>./application/shorturl/tests/</directory>
+	</testsuite>
+        	<testsuite name="News Test Suite">
+		<directory>./application/news/tests/</directory>
+	</testsuite>
+        	<testsuite name="Project Test Suite">
+		<directory>./application/project/tests/</directory>
+	</testsuite>
+        	<testsuite name="Oauth2 Test Suite">
+		<directory>./application/oauth2/tests/</directory>
+	</testsuite>
+        	<testsuite name="Im Test Suite">
+		<directory>./application/im/tests/</directory>
+	</testsuite>
+        	<testsuite name="Ad Test Suite">
+		<directory>./application/ad/tests/</directory>
+	</testsuite>
+        	<testsuite name="Action Test Suite">
+		<directory>./application/action/tests/</directory>
+	</testsuite>
+        	<testsuite name="Activity Test Suite">
+		<directory>./application/activity/tests/</directory>
+	</testsuite>
+        	<testsuite name="Blog Test Suite">
+		<directory>./application/blog/tests/</directory>
+	</testsuite>
+        	<testsuite name="Nav Test Suite">
+		<directory>./application/nav/tests/</directory>
+	</testsuite>
+        	<testsuite name="Admin Test Suite">
+		<directory>./application/admin/tests/</directory>
+	</testsuite>
+        	<testsuite name="Vip Test Suite">
+		<directory>./application/vip/tests/</directory>
+	</testsuite>
+        	<testsuite name="Ai Test Suite">
+		<directory>./application/ai/tests/</directory>
+	</testsuite>
+        	<testsuite name="Question Test Suite">
+		<directory>./application/question/tests/</directory>
+	</testsuite>
+        	<testsuite name="Solution Test Suite">
+		<directory>./application/solution/tests/</directory>
+	</testsuite>
+        	<testsuite name="Mall Test Suite">
+		<directory>./application/mall/tests/</directory>
+	</testsuite>
+        	<testsuite name="Ticket Test Suite">
+		<directory>./application/ticket/tests/</directory>
+	</testsuite>
+        	<testsuite name="Topic Test Suite">
+		<directory>./application/topic/tests/</directory>
+	</testsuite>
+        	<testsuite name="Flyup Test Suite">
+		<directory>./application/flyup/tests/</directory>
+	</testsuite>
+        	<testsuite name="Support Test Suite">
+		<directory>./application/support/tests/</directory>
+	</testsuite>
+        	<testsuite name="Bookmark Test Suite">
+		<directory>./application/bookmark/tests/</directory>
+	</testsuite>
+        	<testsuite name="Share Test Suite">
+		<directory>./application/share/tests/</directory>
+	</testsuite>
+        	<testsuite name="Baike Test Suite">
+		<directory>./application/baike/tests/</directory>
+	</testsuite>
+        	<testsuite name="Themepark Test Suite">
+		<directory>./application/themepark/tests/</directory>
+	</testsuite>
+        	<testsuite name="Shop Test Suite">
+		<directory>./application/shop/tests/</directory>
+	</testsuite>
+        	<testsuite name="Mobile Test Suite">
+		<directory>./application/mobile/tests/</directory>
+	</testsuite>
+        	<testsuite name="Link Test Suite">
+		<directory>./application/link/tests/</directory>
+	</testsuite>
+        	<testsuite name="Nurse Test Suite">
+		<directory>./application/nurse/tests/</directory>
+	</testsuite>
+        	<testsuite name="School Test Suite">
+		<directory>./application/school/tests/</directory>
+	</testsuite>
+        	<testsuite name="Company Test Suite">
+		<directory>./application/company/tests/</directory>
+	</testsuite>
+        	<testsuite name="Visit Test Suite">
+		<directory>./application/visit/tests/</directory>
+	</testsuite>
+        	<testsuite name="Seo Test Suite">
+		<directory>./application/seo/tests/</directory>
+	</testsuite>
+        	<testsuite name="Video Test Suite">
+		<directory>./application/video/tests/</directory>
+	</testsuite>
+        	<testsuite name="Notify Test Suite">
+		<directory>./application/notify/tests/</directory>
+	</testsuite>
+        	<testsuite name="Security Test Suite">
+		<directory>./application/security/tests/</directory>
+	</testsuite>
+        	<testsuite name="Live Test Suite">
+		<directory>./application/live/tests/</directory>
+	</testsuite>
+        	<testsuite name="Dream Test Suite">
+		<directory>./application/dream/tests/</directory>
+	</testsuite>
+        	<testsuite name="Store Test Suite">
+		<directory>./application/store/tests/</directory>
+	</testsuite>
+        	<testsuite name="Guess Test Suite">
+		<directory>./application/guess/tests/</directory>
+	</testsuite>
+        	<testsuite name="Cat Test Suite">
+		<directory>./application/cat/tests/</directory>
+	</testsuite>
+        	<testsuite name="Liteapp Test Suite">
+		<directory>./application/liteapp/tests/</directory>
+	</testsuite>
+        	<testsuite name="House Test Suite">
+		<directory>./application/house/tests/</directory>
+	</testsuite>
+        	<testsuite name="Sign Test Suite">
+		<directory>./application/sign/tests/</directory>
+	</testsuite>
+        	<testsuite name="Module Test Suite">
+		<directory>./application/module/tests/</directory>
+	</testsuite>
+        	<testsuite name="Common Test Suite">
+		<directory>./application/common/tests/</directory>
+	</testsuite>
+        	<testsuite name="Builder Test Suite">
+		<directory>./application/builder/tests/</directory>
+	</testsuite>
+        	<testsuite name="Lang Test Suite">
+		<directory>./application/lang/tests/</directory>
+	</testsuite>
+        	<testsuite name="Job Test Suite">
+		<directory>./application/job/tests/</directory>
+	</testsuite>
+        	<testsuite name="Report Test Suite">
+		<directory>./application/report/tests/</directory>
+	</testsuite>
+        	<testsuite name="Weixin Test Suite">
+		<directory>./application/weixin/tests/</directory>
+	</testsuite>
+        	<testsuite name="Distribution Test Suite">
+		<directory>./application/distribution/tests/</directory>
+	</testsuite>
+        	<testsuite name="Lottery Test Suite">
+		<directory>./application/lottery/tests/</directory>
+	</testsuite>
+        	<testsuite name="Download Test Suite">
+		<directory>./application/download/tests/</directory>
+	</testsuite>
+        	<testsuite name="Ui Test Suite">
+		<directory>./application/ui/tests/</directory>
+	</testsuite>
+        	<testsuite name="Business Test Suite">
+		<directory>./application/business/tests/</directory>
+	</testsuite>
+        	<testsuite name="Service Test Suite">
+		<directory>./application/service/tests/</directory>
+	</testsuite>
+        	<testsuite name="Sites Test Suite">
+		<directory>./application/sites/tests/</directory>
+	</testsuite>
+            </testsuites>
+    <filter>
+        <whitelist>
+            <directory suffix=".php">application/</directory>
+        </whitelist>
+    </filter>
+	<php>
+		<var name="DB_DSN" value="mysql:dbname=gepardshop;host=123.57.181.63:3306" />
+		<var name="DB_USER" value="gepardshop" />
+		<var name="DB_PASSWD" value="LThroXJu7k9kVCJ9" />
+		<var name="DB_DBNAME" value="gepardshop" />
+    </php>
+</phpunit>
+
+
