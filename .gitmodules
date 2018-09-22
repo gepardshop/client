@@ -1,0 +1,3 @@
+[submodule "application/extra"]
+	path = application/extra
+	url = http://git.24cod.com/yangliuwei/extra.git
