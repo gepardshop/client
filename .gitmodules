@@ -1,3 +1,57 @@
 [submodule "application/extra"]
 	path = application/extra
 	url = http://git.24cod.com/yangliuwei/extra.git
+[submodule "application/file"]
+	path = application/file
+	url = http://git.24cod.com/yangliuwei/file.git
+[submodule "application/admin"]
+	path = application/admin
+	url = http://git.24cod.com/yangliuwei/admin.git
+[submodule "application/action"]
+	path = application/action
+	url = http://git.24cod.com/yangliuwei/action.git
+[submodule "application/auth"]
+	path = application/auth
+	url = http://git.24cod.com/yangliuwei/auth.git
+[submodule "application/builder"]
+	path = application/builder
+	url = http://git.24cod.com/yangliuwei/builder.git
+[submodule "application/common"]
+	path = application/common
+	url = http://git.24cod.com/yangliuwei/common.git
+[submodule "application/extend"]
+	path = application/extend
+	url = http://git.24cod.com/yangliuwei/extend.git
+[submodule "application/framework"]
+	path = application/framework
+	url = http://git.24cod.com/yangliuwei/framework.git
+[submodule "application/index"]
+	path = application/index
+	url = http://git.24cod.com/yangliuwei/index.git
+[submodule "application/install"]
+	path = application/install
+	url = http://git.24cod.com/yangliuwei/install.git
+[submodule "application/lang"]
+	path = application/lang
+	url = http://git.24cod.com/yangliuwei/lang.git
+[submodule "application/module"]
+	path = application/module
+	url = http://git.24cod.com/yangliuwei/module.git
+[submodule "application/nav"]
+	path = application/nav
+	url = http://git.24cod.com/yangliuwei/nav.git
+[submodule "application/themepark"]
+	path = application/themepark
+	url = http://git.24cod.com/yangliuwei/themepark.git
+[submodule "application/ucenter"]
+	path = application/ucenter
+	url = http://git.24cod.com/yangliuwei/ucenter.git
+[submodule "public"]
+	path = public
+	url = http://git.24cod.com/yangliuwei/public.git
+[submodule "server"]
+	path = server
+	url = http://git.24cod.com/yangliuwei/server.git
+[submodule "vendor"]
+	path = vendor
+	url = http://git.24cod.com/yangliuwei/vendor.git
