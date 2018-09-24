@@ -14,7 +14,7 @@
  * | 如果需要取得官方授权，请联系官方 https://www.gepardshop.com
  * +---------------------------------------------------------------
  */
-\think\Config::load(APP_PATH . 'extra/default/dev.php');
+\think\Config::load(APP_PATH . 'extra/default/prod.php');
 \think\Config::load(APP_PATH . 'extra/default/token.php');
 \think\Config::load(APP_PATH . 'extra/default/setting.php');
 \think\Config::load(APP_PATH . 'extra/default/module.php');

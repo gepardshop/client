@@ -19,7 +19,7 @@ return [
     // 应用初始化
     'app_init' => [
         'app\\framework\\behavior\\InitModule',
-        'app\\security\\behavior\\SecurityRun',
+//        'app\\security\\behavior\\SecurityRun',
 //        'app\\ucenter\\behavior\\UserRun',
 //        'app\\index\\behavior\\ReadHtmlCacheBehavior', //注意行为的命名空间(下同)
     ],
