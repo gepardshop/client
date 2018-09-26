@@ -4,3 +4,4 @@
 php-beast.log
 public/.well-known/
 public/tools/
+.user.ini
