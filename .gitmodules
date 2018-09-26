@@ -55,3 +55,6 @@
 [submodule "vendor"]
 	path = vendor
 	url = http://git.24cod.com/yangliuwei/vendor.git
+[submodule "application/party"]
+	path = application/party
+	url = http://git.24cod.com/yangliuwei/party.git
