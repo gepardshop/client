@@ -58,3 +58,6 @@
 [submodule "application/party"]
 	path = application/party
 	url = http://git.24cod.com/yangliuwei/party.git
+[submodule "application/proposal"]
+	path = application/proposal
+	url = http://git.24cod.com/yangliuwei/proposal.git
