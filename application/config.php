@@ -24,4 +24,4 @@
 defined('DOMAIN_FULL') or define('DOMAIN_FULL', '');
 defined('DOMAIN_SHORT') or define('DOMAIN_SHORT', '');
 defined('DOMAIN_CLOUD') or define('DOMAIN_CLOUD','https://www.gepardshop.com');
-defined('DOMAIN_CDN') or define('DOMAIN_CDN','https://www.gepardshop.com');
+defined('DOMAIN_CDN') or define('DOMAIN_CDN','https://alicdn.gepardshop.com');
