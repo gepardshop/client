@@ -61,3 +61,6 @@
 [submodule "application/proposal"]
 	path = application/proposal
 	url = http://git.24cod.com/yangliuwei/proposal.git
+[submodule "webhook"]
+	path = webhook
+	url = http://git.24cod.com/yangliuwei/webhook.git
