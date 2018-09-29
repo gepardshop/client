@@ -23,6 +23,6 @@ define('RUNTIME_PATH', __DIR__ . '/public/runtime/');
 
 define('MODULE_MARK', 'Admin');
 define('HTML_PATH', RUNTIME_PATH . 'public/Html/');
-define('STATIC_PATH',__DIR__.'public/');
+define('STATIC_PATH',__DIR__);
 // 引入ThinkPHP入口文件
 require APP_PATH . './framework/start.php';

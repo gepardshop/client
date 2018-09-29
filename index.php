@@ -22,7 +22,7 @@ define('MODULE_MARK', 'Admin');
 define('RUNTIME_PATH', __DIR__ . '/public/runtime/');
 define('LOG_PATH', __DIR__ . '/public/runtime/');
 define('HTML_PATH', RUNTIME_PATH . 'Html/');
-define('STATIC_PATH',__DIR__.'public/');
+define('STATIC_PATH',__DIR__);
 
 if(is_file(APP_PATH .'/install.lock')===false){
     define('BIND_MODULE', 'install');
