@@ -61,3 +61,18 @@
 [submodule "webhook"]
 	path = webhook
 	url = http://git.24cod.com/yangliuwei/webhook.git
+[submodule "public/apps"]
+	path = public/apps
+	url = http://git.24cod.com/yangliuwei/apps.git
+[submodule "public/assets"]
+	path = public/assets
+	url = http://git.24cod.com/yangliuwei/assets.git
+[submodule "public/plugins"]
+	path = public/plugins
+	url = http://git.24cod.com/yangliuwei/plugins.git
+[submodule "public/data"]
+	path = public/data
+	url = http://git.24cod.com/yangliuwei/data.git
+[submodule "public/runtime"]
+	path = public/runtime
+	url = http://git.24cod.com/yangliuwei/runtime.git
