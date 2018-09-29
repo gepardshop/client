@@ -46,9 +46,6 @@
 [submodule "application/ucenter"]
 	path = application/ucenter
 	url = http://git.24cod.com/yangliuwei/ucenter.git
-[submodule "public"]
-	path = public
-	url = http://git.24cod.com/yangliuwei/public.git
 [submodule "server"]
 	path = server
 	url = http://git.24cod.com/yangliuwei/server.git
