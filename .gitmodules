@@ -79,3 +79,6 @@
 [submodule "application/dirver"]
 	path = application/dirver
 	url = http://git.24cod.com/yangliuwei/driver.git
+[submodule "application/driver"]
+	path = application/driver
+	url = http://git.24cod.com/yangliuwei/driver.git
