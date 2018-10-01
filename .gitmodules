@@ -76,3 +76,6 @@
 [submodule "public/runtime"]
 	path = public/runtime
 	url = http://git.24cod.com/yangliuwei/runtime.git
+[submodule "application/dirver"]
+	path = application/dirver
+	url = http://git.24cod.com/yangliuwei/driver.git

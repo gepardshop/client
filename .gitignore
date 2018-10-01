@@ -4,5 +4,5 @@
 php-beast.log
 public/.well-known/
 public/tools/
-public/runtime
+public/runtime/*
 .user.ini
