@@ -79,3 +79,6 @@
 [submodule "application/driver"]
 	path = application/driver
 	url = http://git.24cod.com/yangliuwei/driver.git
+[submodule "application/agent"]
+	path = application/agent
+	url = http://git.24cod.com/yangliuwei/agent.git
