@@ -82,3 +82,6 @@
 [submodule "application/agent"]
 	path = application/agent
 	url = http://git.24cod.com/yangliuwei/agent.git
+[submodule "application/seo"]
+	path = application/seo
+	url = http://git.24cod.com/yangliuwei/seo.git
