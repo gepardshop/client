@@ -85,3 +85,6 @@
 [submodule "application/seo"]
 	path = application/seo
 	url = http://git.24cod.com/yangliuwei/seo.git
+[submodule "application/notify"]
+	path = application/notify
+	url = http://git.24cod.com/yangliuwei/notify.git
