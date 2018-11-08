@@ -88,3 +88,6 @@
 [submodule "application/notify"]
 	path = application/notify
 	url = http://git.24cod.com/yangliuwei/notify.git
+[submodule "application/news"]
+	path = application/news
+	url = http://git.24cod.com/yangliuwei/news.git
