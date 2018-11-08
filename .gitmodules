@@ -91,3 +91,6 @@
 [submodule "application/news"]
 	path = application/news
 	url = http://git.24cod.com/yangliuwei/news.git
+[submodule "application/ad"]
+	path = application/ad
+	url = http://git.24cod.com/yangliuwei/ad.git
