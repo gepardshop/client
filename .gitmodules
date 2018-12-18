@@ -94,3 +94,6 @@
 [submodule "application/ad"]
 	path = application/ad
 	url = http://git.24cod.com/yangliuwei/ad.git
+[submodule "application/moa"]
+	path = application/moa
+	url = http://git.24cod.com/yangliuwei/moa.git
