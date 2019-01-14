@@ -52,12 +52,6 @@
 [submodule "vendor"]
 	path = vendor
 	url = http://git.24cod.com/yangliuwei/vendor.git
-[submodule "application/party"]
-	path = application/party
-	url = http://git.24cod.com/yangliuwei/party.git
-[submodule "application/proposal"]
-	path = application/proposal
-	url = http://git.24cod.com/yangliuwei/proposal.git
 [submodule "webhook"]
 	path = webhook
 	url = http://git.24cod.com/yangliuwei/webhook.git
@@ -76,12 +70,6 @@
 [submodule "public/runtime"]
 	path = public/runtime
 	url = http://git.24cod.com/yangliuwei/runtime.git
-[submodule "application/driver"]
-	path = application/driver
-	url = http://git.24cod.com/yangliuwei/driver.git
-[submodule "application/agent"]
-	path = application/agent
-	url = http://git.24cod.com/yangliuwei/agent.git
 [submodule "application/seo"]
 	path = application/seo
 	url = http://git.24cod.com/yangliuwei/seo.git
@@ -94,6 +82,3 @@
 [submodule "application/ad"]
 	path = application/ad
 	url = http://git.24cod.com/yangliuwei/ad.git
-[submodule "application/moa"]
-	path = application/moa
-	url = http://git.24cod.com/yangliuwei/moa.git
