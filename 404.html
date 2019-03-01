@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<!--[if IE 9]>
+<html class="ie9 no-focus" lang="zh"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-focus" lang="zh">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <title>跳转提示</title>
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1.0">
+    <!-- Stylesheets -->
+    <!-- Bootstrap and OneUI CSS framework -->
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/2.3.1/css/bootstrap.min.css">
+    <!-- END Stylesheets -->
+    <style type="text/css">
+        body,html{height:100%;font-family:"Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;font-size:14px;color:#646464;background-color:#f5f5f5}
+        .font-red{color:#ff6b6b}
+        .push-10{margin-bottom:10px!important}
+        .push-20{margin-bottom:20px!important}
+        .bg-white{background-color:#fff}
+        .pulldown{position:relative;top:30%}
+        @media screen and (min-width:992px){.pulldown{top:30%}}
+        .align-bottom{position:absolute;bottom:30px;width: 100%;}
+    </style>
+</head>
+
+<body class="bg-white">
+<!-- Error Content -->
+<div class="content  text-center pulldown overflow-hidden">
+    <div class="row">
+        <div class="col-sm-6 col-sm-offset-3">
+            <!-- Error Titles -->
+            <h1 class="font-red push-10  ">404，您请求的文件不存在!!!</h1>
+
+            <div class="push-20">
+                <a class="btn   btn-success" href="/"> 立即跳转
+                </a>
+
+                <a class="btn    btn-default" href="/">返回首页</a>
+            </div>
+            <p class="font-w300 push-20 ">
+                页面自动 <a id="href"  href="/">跳转</a>
+                等待时间： <b id="wait">300</b>秒
+            </p>
+            <!-- END Error Titles -->
+        </div>
+    </div>
+</div>
+<!-- END Error Content -->
+<!-- Error Footer -->
+<div class="content align-bottom text-muted text-center">
+    由 <a class="link-effect" href="https://www.gepardshop.com" target="_blank">www.gepardshop.com</a> 强力驱动
+</div>
+<!-- END Error Footer -->
+<script type="text/javascript">
+    (function () {
+        var wait = document.getElementById('wait'),
+            href = document.getElementById('href').href;
+        var interval = setInterval(function () {
+            var time = --wait.innerHTML;
+            if (time <= 0) {
+                location.href = href;
+                clearInterval(interval);
+            }
+            ;
+        }, 1000);
+
+        // 禁止跳转
+        window.stop = function () {
+            clearInterval(interval);
+        }
+    })();
+</script>
+</body>
+
+</html>

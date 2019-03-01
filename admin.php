@@ -1,9 +1,10 @@
 <?php
+
 /**
  * +---------------------------------------------------------------
  * | Author: 北京永青宇创科技有限公司
- * | Date: 2018/09/14
- * | 版本: 5.0
+ * | Date: 2019/02/05
+ * | 版本: 6.0
  * +---------------------------------------------------------------
  * | CopyRight: 北京永青宇创科技有限公司 All rights reserved.
  * +---------------------------------------------------------------
@@ -15,14 +16,15 @@
  */
 
 //后台入口文件，后台控制器位于App的admin目录
-define('APP_DEBUG',True);
-// 定义应用目录
-define('APP_PATH',__DIR__ . '/application/');
-define('BIND_MODULE', 'AppAdmin');
-define('RUNTIME_PATH', __DIR__ . '/public/runtime/');
 
+// 定义应用目录
 define('MODULE_MARK', 'Admin');
-define('HTML_PATH', RUNTIME_PATH . 'public/Html/');
-define('STATIC_PATH',__DIR__);
+define('BIND_MODULE', 'AppAdmin');
+
+define('APP_PATH', __DIR__ . DIRECTORY_SEPARATOR . 'application' . DIRECTORY_SEPARATOR);
+define('RUNTIME_PATH', __DIR__ . DIRECTORY_SEPARATOR . 'public' . DIRECTORY_SEPARATOR . 'runtime' . DIRECTORY_SEPARATOR);
+define('LOG_PATH', __DIR__ . DIRECTORY_SEPARATOR . 'public' . DIRECTORY_SEPARATOR . 'runtime' . DIRECTORY_SEPARATOR);
+define('HTML_PATH', RUNTIME_PATH . 'public' . DIRECTORY_SEPARATOR . 'Html' . DIRECTORY_SEPARATOR);
+define('STATIC_PATH', __DIR__);
 // 引入ThinkPHP入口文件
-require APP_PATH . './framework/start.php';
+require __DIR__ . '/gepardcore/thinkphp/start.php';

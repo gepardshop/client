@@ -15,15 +15,14 @@
  * +---------------------------------------------------------------
  */
 
-// [ 应用入口文件 ]
-// 定义应用目录
-define('MODULE_MARK', 'Admin');
+\think\Config::load(APP_PATH . 'extra/default/prod.php');
+\think\Config::load(APP_PATH . 'extra/default/token.php');
+\think\Config::load(APP_PATH . 'extra/default/setting.php');
+\think\Config::load(APP_PATH . 'extra/default/module.php');
+\think\Config::load(APP_PATH . 'extra/default/url.php');
+\think\Config::load(APP_PATH . 'extra/default/debug.php');
 
-define('APP_PATH', __DIR__ . DIRECTORY_SEPARATOR . 'application' . DIRECTORY_SEPARATOR);
-define('RUNTIME_PATH', __DIR__ . DIRECTORY_SEPARATOR . 'public' . DIRECTORY_SEPARATOR . 'runtime' . DIRECTORY_SEPARATOR);
-define('LOG_PATH', __DIR__ . DIRECTORY_SEPARATOR . 'public' . DIRECTORY_SEPARATOR . 'runtime' . DIRECTORY_SEPARATOR);
-define('HTML_PATH', RUNTIME_PATH . 'public' . DIRECTORY_SEPARATOR . 'Html' . DIRECTORY_SEPARATOR);
-define('STATIC_PATH', __DIR__);
-
-// 加载框架引导文件
-require __DIR__ . '/gepardcore/thinkphp/start.php';
+defined('DOMAIN_FULL') or define('DOMAIN_FULL', '');
+defined('DOMAIN_SHORT') or define('DOMAIN_SHORT', '');
+defined('DOMAIN_CLOUD') or define('DOMAIN_CLOUD', 'https://www.gepardshop.com');
+defined('DOMAIN_CDN') or define('DOMAIN_CDN', 'https://alicdn.gepardshop.com');

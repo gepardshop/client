@@ -15,15 +15,27 @@
  * +---------------------------------------------------------------
  */
 
-// [ 应用入口文件 ]
-// 定义应用目录
-define('MODULE_MARK', 'Admin');
-
-define('APP_PATH', __DIR__ . DIRECTORY_SEPARATOR . 'application' . DIRECTORY_SEPARATOR);
-define('RUNTIME_PATH', __DIR__ . DIRECTORY_SEPARATOR . 'public' . DIRECTORY_SEPARATOR . 'runtime' . DIRECTORY_SEPARATOR);
-define('LOG_PATH', __DIR__ . DIRECTORY_SEPARATOR . 'public' . DIRECTORY_SEPARATOR . 'runtime' . DIRECTORY_SEPARATOR);
-define('HTML_PATH', RUNTIME_PATH . 'public' . DIRECTORY_SEPARATOR . 'Html' . DIRECTORY_SEPARATOR);
-define('STATIC_PATH', __DIR__);
-
-// 加载框架引导文件
-require __DIR__ . '/gepardcore/thinkphp/start.php';
+return [
+	// 应用初始化
+	'app_init'     => [
+		'app\\common\\behavior\\Gepardshop',
+		'addons\\security\\behavior\\SecurityRun',
+//		'app\\common\\Hook',
+		//        'app\\ucenter\\behavior\\UserRun',
+		//        'app\\index\\behavior\\ReadHtmlCacheBehavior', //注意行为的命名空间(下同)
+	],
+	// 应用开始
+	'app_begin'    => [],
+	// 模块初始化
+	'module_init'  => [],
+	// 操作开始执行
+	'action_begin' => [],
+	// 视图内容过滤
+	'view_filter'  => [
+		//        'app\\index\\behavior\\WriteHtmlCacheBehavior',
+	],
+	// 日志写入
+	'log_write'    => [],
+	// 应用结束
+	'app_end'      => [],
+];

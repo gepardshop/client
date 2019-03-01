@@ -1,4 +1,9 @@
-
+[submodule "application/admin"]
+	path = application/admin
+	url = http://git.24cod.com/yangliuwei/admin.git
+[submodule "application/common"]
+	path = application/common
+	url = http://git.24cod.com/yangliuwei/common.git
 [submodule "webhook"]
 	path = webhook
 	url = http://git.24cod.com/yangliuwei/webhook.git

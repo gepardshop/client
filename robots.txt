@@ -1,6 +1,3 @@
 User-agent: *
 Sitemap: /sitemap
-Disallow:/public/webhook/
-Disallow:/server/
-Disallow:/vendor/
-Disallow:/application/
+Allow:/

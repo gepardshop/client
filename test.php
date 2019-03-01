@@ -15,9 +15,10 @@
  * +---------------------------------------------------------------
  */
 
-// [ 应用入口文件 ]
-// 定义应用目录
-define('MODULE_MARK', 'Admin');
+//单元测试入口文件，接口位于App的api目录
+
+// 定义应用目录
+define('BIND_MODULE', 'test');
 
 define('APP_PATH', __DIR__ . DIRECTORY_SEPARATOR . 'application' . DIRECTORY_SEPARATOR);
 define('RUNTIME_PATH', __DIR__ . DIRECTORY_SEPARATOR . 'public' . DIRECTORY_SEPARATOR . 'runtime' . DIRECTORY_SEPARATOR);
@@ -25,5 +26,5 @@ define('LOG_PATH', __DIR__ . DIRECTORY_SEPARATOR . 'public' . DIRECTORY_SEPARATO
 define('HTML_PATH', RUNTIME_PATH . 'public' . DIRECTORY_SEPARATOR . 'Html' . DIRECTORY_SEPARATOR);
 define('STATIC_PATH', __DIR__);
 
-// 加载框架引导文件
-require __DIR__ . '/gepardcore/thinkphp/start.php';
+// 引入ThinkPHP入口文件
+require  __DIR__ . '/gepardcore/thinkphp/start.php';
