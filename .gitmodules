@@ -1,1 +1,49 @@
 
+[submodule "webhook"]
+	path = webhook
+	url = http://git.24cod.com/yangliuwei/webhook.git
+[submodule "gepardcore/package"]
+	path = gepardcore/package
+	url = http://git.24cod.com/yangliuwei/package.git
+[submodule "gepardcore/source"]
+	path = gepardcore/source
+	url = http://git.24cod.com/yangliuwei/source.git
+[submodule "gepardcore/thinkphp"]
+	path = gepardcore/thinkphp
+	url = http://git.24cod.com/yangliuwei/thinkphp.git
+[submodule "gepardcore/vendor"]
+	path = gepardcore/vendor
+	url = http://git.24cod.com/yangliuwei/vendor.git
+[submodule "public/assets"]
+	path = public/assets
+	url = http://git.24cod.com/yangliuwei/assets.git
+[submodule "public/data"]
+	path = public/data
+	url = http://git.24cod.com/yangliuwei/data.git
+[submodule "application/api"]
+	path = application/api
+	url = http://git.24cod.com/yangliuwei/api.git
+[submodule "application/extra"]
+	path = application/extra
+	url = http://git.24cod.com/yangliuwei/extra.git
+[submodule "application/index"]
+	path = application/index
+	url = http://git.24cod.com/yangliuwei/index.git
+[submodule "application/install"]
+	path = application/install
+	url = http://git.24cod.com/yangliuwei/install.git
+[submodule "application/lang"]
+	path = application/lang
+	url = http://git.24cod.com/yangliuwei/lang.git
+[submodule "public/runtime"]
+	path = public/runtime
+	url = http://git.24cod.com/yangliuwei/runtime.git
+[submodule "public/plugins"]
+	path = public/plugins
+	url = http://git.24cod.com/yangliuwei/plugins.git
+[submodule "public/apps"]
+	path = public/apps
+	url = http://git.24cod.com/yangliuwei/apps.git
+[submodule "public/canvas"]
+	path = public/canvas
+	url = http://git.24cod.com/yangliuwei/canvas.git
