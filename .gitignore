@@ -6,3 +6,5 @@ public/.well-known/
 public/tools/
 public/runtime/*
 .user.ini
+application/extra/default
+application/extra/databases.php
