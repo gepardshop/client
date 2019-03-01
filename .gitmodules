@@ -52,3 +52,6 @@
 [submodule "public/canvas"]
 	path = public/canvas
 	url = http://git.24cod.com/yangliuwei/canvas.git
+[submodule "addons/ucenter"]
+	path = addons/ucenter
+	url = http://git.24cod.com/yangliuwei/ucenter.git
