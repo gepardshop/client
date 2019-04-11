@@ -85,3 +85,6 @@
 [submodule "addons/serverinfo"]
 	path = addons/serverinfo
 	url = http://git.24cod.com/yangliuwei/serverinfo.git
+[submodule "public/static"]
+	path = public/static
+	url = http://git.24cod.com/yangliuwei/static.git
