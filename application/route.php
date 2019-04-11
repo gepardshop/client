@@ -23,11 +23,11 @@ Route::get('site', 'seo/Index/index');
 Route::get('sitemap', 'seo/Index/index');
 
 //API接口
-Route::resource('api/:version/user','api/:version.User');   //注册一个资源路由，对应restful各个方法,.为目录
+Route::resource('api/:version/user', 'api/:version.User');   //注册一个资源路由，对应restful各个方法,.为目录
 
-Route::rule('api/:version/user/:id/fans','api/:version.User/fans'); //restful方法中除restful api外的其他方法路由
-Route::rule('api/:version/token/wechat','api/:version.Token/wechat');
-Route::rule('api/:version/token/mobile','api/:version.Token/mobile');
+Route::rule('api/:version/user/:id/fans', 'api/:version.User/fans'); //restful方法中除restful api外的其他方法路由
+Route::rule('api/:version/token/wechat', 'api/:version.Token/wechat');
+Route::rule('api/:version/token/mobile', 'api/:version.Token/mobile');
 //Route::miss('Error/index');
 
 //框架兼容处理
@@ -44,7 +44,9 @@ if('/' == $pathinfo && 'admin.php' == $baseFile) {
 	\think\Route::bind('Admin');
 }
 
-
+if (defined('BIND_MODULE') && ! preg_match('/^admin\//', $pathinfo) && $baseFile != 'admin.php' && $baseFile != 'api.php' && ! preg_match('/^api/', $pathinfo) && file_exists("public" . DS . "install.lock")) {
+	\think\Route::bind(BIND_MODULE);
+}
 
 //Route::domain('admin','admin');
 return [
