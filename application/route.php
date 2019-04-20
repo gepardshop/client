@@ -22,6 +22,22 @@ use \think\Request;
 Route::get('site', 'seo/Index/index');
 Route::get('sitemap', 'seo/Index/index');
 
+//模块级资源 assets/ 模块名 /    css/style.css
+$pathinfo = Request::instance()->pathinfo();
+$temp     = explode('/', $pathinfo);
+//var_dump($pathinfo, $temp,'in');
+//die();
+if( ! empty($temp[0]) && 'assets' == $temp[0]) {
+	//前缀
+	$pre = $temp[0].'/'.$temp[1].'/';
+	$assets_file = str_replace($pre,'',$pathinfo);
+//	var_dump($assets_file);
+	Route::get('assets/:module/:name', 'index/assets/addons?addon='.$temp[1].'&file='.$assets_file);
+}
+//var_dump($pathinfo, $temp);
+//die();
+
+
 //API接口
 Route::resource('api/:version/user', 'api/:version.User');   //注册一个资源路由，对应restful各个方法,.为目录
 
@@ -35,7 +51,7 @@ $pathinfo = strtolower(Request::instance()->pathinfo());
 $baseFile = basename(strtolower(Request::instance()->baseFile()));
 $pathinfo = $pathinfo == 'admin' ? $pathinfo . '/' : $pathinfo;
 
-if( ! preg_match('/^admin\//', $pathinfo) && $baseFile != 'admin.php' && $baseFile != 'api.php' && ! preg_match('/^api/', $pathinfo) && file_exists("public" . DS . "install.lock")) {
+if( ! preg_match('/^admin\//', $pathinfo) && $baseFile != 'admin.php' && $baseFile != 'api.php' && ! preg_match('/^api/', $pathinfo) && file_exists("install.lock")) {
 	\think\Route::bind('index');
 
 };
@@ -44,7 +60,7 @@ if('/' == $pathinfo && 'admin.php' == $baseFile) {
 	\think\Route::bind('Admin');
 }
 
-if (defined('BIND_MODULE') && ! preg_match('/^admin\//', $pathinfo) && $baseFile != 'admin.php' && $baseFile != 'api.php' && ! preg_match('/^api/', $pathinfo) && file_exists("public" . DS . "install.lock")) {
+if(defined('BIND_MODULE') && ! preg_match('/^admin\//', $pathinfo) && $baseFile != 'admin.php' && $baseFile != 'api.php' && ! preg_match('/^api/', $pathinfo) && file_exists("install.lock")) {
 	\think\Route::bind(BIND_MODULE);
 }
 

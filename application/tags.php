@@ -21,7 +21,7 @@ return [
 		'app\\common\\behavior\\Gepardshop',
 //		'addons\\security\\behavior\\SecurityRun',
 		//		'app\\common\\Hook',
-		'addons\\ucenter\\behavior\\UserRun',
+//		'addons\\ucenter\\behavior\\UserRun',
 		//        'app\\index\\behavior\\ReadHtmlCacheBehavior', //注意行为的命名空间(下同)
 	],
 	// 应用开始
