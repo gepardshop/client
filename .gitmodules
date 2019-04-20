@@ -19,9 +19,6 @@
 [submodule "gepardcore/vendor"]
 	path = gepardcore/vendor
 	url = http://git.24cod.com/yangliuwei/vendor.git
-[submodule "public/data"]
-	path = public/data
-	url = http://git.24cod.com/yangliuwei/data.git
 [submodule "application/api"]
 	path = application/api
 	url = http://git.24cod.com/yangliuwei/api.git
