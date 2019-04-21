@@ -14,6 +14,10 @@
  * | 如果需要取得官方授权，请联系官方 https://www.gepardshop.com
  * +---------------------------------------------------------------
  */
+defined('DOMAIN_FULL') or define('DOMAIN_FULL', '');
+defined('DOMAIN_SHORT') or define('DOMAIN_SHORT', '');
+defined('DOMAIN_CLOUD') or define('DOMAIN_CLOUD', 'https://www.gepardshop.com');
+defined('DOMAIN_CDN') or define('DOMAIN_CDN', 'https://alicdn.gepardshop.com');
 
 \think\Config::load(APP_PATH . 'extra/default/prod.php');
 \think\Config::load(APP_PATH . 'extra/default/token.php');
@@ -22,7 +26,3 @@
 \think\Config::load(APP_PATH . 'extra/default/url.php');
 \think\Config::load(APP_PATH . 'extra/default/debug.php');
 
-defined('DOMAIN_FULL') or define('DOMAIN_FULL', '');
-defined('DOMAIN_SHORT') or define('DOMAIN_SHORT', '');
-defined('DOMAIN_CLOUD') or define('DOMAIN_CLOUD', 'https://www.gepardshop.com');
-defined('DOMAIN_CDN') or define('DOMAIN_CDN', 'https://alicdn.gepardshop.com');
