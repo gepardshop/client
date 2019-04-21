@@ -19,9 +19,6 @@
 [submodule "gepardcore/vendor"]
 	path = gepardcore/vendor
 	url = http://git.24cod.com/yangliuwei/vendor.git
-[submodule "application/api"]
-	path = application/api
-	url = http://git.24cod.com/yangliuwei/api.git
 [submodule "application/extra"]
 	path = application/extra
 	url = http://git.24cod.com/yangliuwei/extra.git
@@ -37,27 +34,6 @@
 [submodule "addons/auth"]
 	path = addons/auth
 	url = http://git.24cod.com/yangliuwei/auth.git
-[submodule "addons/file"]
-	path = addons/file
-	url = http://git.24cod.com/yangliuwei/file.git
-[submodule "addons/seo"]
-	path = addons/seo
-	url = http://git.24cod.com/yangliuwei/seo.git
-[submodule "addons/feedback"]
-	path = addons/feedback
-	url = http://git.24cod.com/yangliuwei/feedback.git
-[submodule "addons/pagetool"]
-	path = addons/pagetool
-	url = http://git.24cod.com/yangliuwei/pagetool.git
-[submodule "addons/rocket"]
-	path = addons/rocket
-	url = http://git.24cod.com/yangliuwei/rocket.git
-[submodule "addons/sitereport"]
-	path = addons/sitereport
-	url = http://git.24cod.com/yangliuwei/sitereport.git
-[submodule "addons/sitechart"]
-	path = addons/sitechart
-	url = http://git.24cod.com/yangliuwei/sitechart.git
 [submodule "addons/serverinfo"]
 	path = addons/serverinfo
 	url = http://git.24cod.com/yangliuwei/serverinfo.git
